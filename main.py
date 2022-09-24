@@ -94,7 +94,7 @@ elif submit and email == actual_emaild5 and password == actual_passwordd5:
     st.write("Welcome Dr. ANGELLINA K JOB ")
     st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
     
-elif submit and email == actual_emailp1 and password == actual_passwordp1:
+if submit and email == actual_emailp1 and password == actual_passwordp1:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Miss Reenu Sivadarshini M ")
