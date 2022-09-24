@@ -72,7 +72,7 @@ elif submit and email == actual_emaild5 and password == actual_passwordd5:
     st.write("Welcome Dr. ANGELLINA K JOB ")
     
     
-rlif submit and email == actual_emailp1 and password == actual_passwordp1:
+elif submit and email == actual_emailp1 and password == actual_passwordp1:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Miss Reenu Sivadarshini M ")
