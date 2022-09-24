@@ -23,9 +23,15 @@ add_bg_from_url()
 
 def doc():
     st.write("Your Patients are:\n")
-    st.markdown("- Patient 1")
-    st.markdown("- Patient 2")
-    st.markdown("- Patient 3")
+    st.markdown("- Reenu Sivadarshini ---> @depressingmsgs")
+    st.markdown("- Riya --->@riya68881")
+    st.markdown("- Jack --->@Jackkk988")
+def doc1():
+    st.write("Your Patients are:\n")
+    st.markdown("- Ryan---> @ryan3089")
+    st.markdown("- Nina --->@Nina12282")
+    st.markdown("- Klaus --->@@klaustoon")
+
 
 st.markdown('''
 <style>
@@ -99,20 +105,21 @@ elif submit and email == actual_emaild3 and password == actual_passwordd3:
     st.success("Login successful")
     st.write("Welcome Dr. SAMEERA SHAMMA ")
     st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
-    doc()
+    doc1()
     
 elif submit and email == actual_emaild4 and password == actual_passwordd4:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. GLADIN  ")
-    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")    
-
+    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
+    doc1()
     
 elif submit and email == actual_emailp1 and password == actual_passwordp1:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Miss Reenu Sivadarshini M ")
     st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/ ")
+    
 elif submit and email == actual_emailp2 and password == actual_passwordp2:
     placeholder.empty()
     st.success("Login successful")
