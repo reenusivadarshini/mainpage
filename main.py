@@ -9,7 +9,6 @@ hashed_passwords = stauth.Hasher(['123', '456']).generate()
 
 with open('../config.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)
-
 authenticator = Authenticate(
     config['credentials'],
     config['cookie']['name'],
@@ -30,7 +29,7 @@ elif authentication_status == None:
     st.warning('Please enter your username and password')
 
     
-    if st.session_state["authentication_status"]:
+if st.session_state["authentication_status"]:
     authenticator.logout('Logout', 'main')
     st.write(f'Welcome *{st.session_state["name"]}*')
     st.title('Some content')
