@@ -99,12 +99,14 @@ if submit and email == actual_emaild1 and password == actual_passwordd1:
     st.write("Welcome Dr. SHARMELEE KUMAR ")
     st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
     df=doc()
+    df
 elif submit and email == actual_emaild2 and password == actual_passwordd2:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. SHERINA CARMEL ") 
     st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
     df=doc()
+    df
 
 elif submit and email == actual_emaild3 and password == actual_passwordd3:
     placeholder.empty()
@@ -151,6 +153,7 @@ elif submit and email == actual_emailp6 and password == actual_passwordp6:
     st.success("Login successful")
     st.write("Welcome Mr. KLAUS ") 
     st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/ ")
+    
 elif submit and email != actual_email and password != actual_password:
     st.error("Login failed")
 else:
