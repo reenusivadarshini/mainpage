@@ -57,23 +57,7 @@ actual_emailp6 = "pat_klaus@gmail.com"
 actual_passwordp6 = "pat_klaus"
 
 # Insert a form in the container
-with placeholder.form("login"):
-    def add_bg_from_url():
-        st.markdown(
-            f"""
-            <style>
-            .stApp {{
-                background-image: url("https://wallpapers.com/images/file/periwinkle-purple-aesthetic-sky-yjzyqcew84i5m0or-yjzyqcew");
-                background-attachment: fixed;
-                background-size: cover
-            }}
-            </style>
-            """,
-            unsafe_allow_html=True
-        )
-
-    add_bg_from_url() 
-    
+with placeholder.form("login"):   
     st.title("Enter your credentials")
     email = st.text_input("Email")
     password = st.text_input("Password", type="password")
