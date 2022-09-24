@@ -54,30 +54,30 @@ if submit and email == actual_emaild1 and password == actual_passwordd1:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. SHARMELEE KUMAR ")
-    st.write("https://reenu123456-tweet-analyzer-app-odaytp.stream ")
+    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
 elif submit and email == actual_emaild2 and password == actual_passwordd2:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. SHERINA CARMEL ") 
-    st.write("https://reenu123456-tweet-analyzer-app-odaytp.stream ")
+    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/")
 
 elif submit and email == actual_emaild3 and password == actual_passwordd3:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. SAMEERA SHAMMA ")
-    st.write("https://reenu123456-tweet-analyzer-app-odaytp.stream ")
+    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/")
     
 elif submit and email == actual_emaild4 and password == actual_passwordd4:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. GLADIN  ")
-    st.write("https://reenu123456-tweet-analyzer-app-odaytp.stream ")
+    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/")
     
 elif submit and email == actual_emaild5 and password == actual_passwordd5:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. ANGELLINA K JOB ")
-    st.write("https://reenu123456-tweet-analyzer-app-odaytp.stream ")
+    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
     
 elif submit and email == actual_emailp1 and password == actual_passwordp1:
     placeholder.empty()
