@@ -118,7 +118,7 @@ elif submit and email == actual_emailp5 and password == actual_passwordp5:
 elif submit and email == actual_emailp6 and password == actual_passwordp6:
     placeholder.empty()
     st.success("Login successful")
-    st.write("Welcome Dr. KLAUS ") 
+    st.write("Welcome Mr. KLAUS ") 
     st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/ ")
 elif submit and email != actual_email and password != actual_password:
     st.error("Login failed")
