@@ -59,19 +59,19 @@ elif submit and email == actual_emaild2 and password == actual_passwordd2:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. SHERINA CARMEL ") 
-    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/")
+    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
 
 elif submit and email == actual_emaild3 and password == actual_passwordd3:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. SAMEERA SHAMMA ")
-    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/")
+    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
     
 elif submit and email == actual_emaild4 and password == actual_passwordd4:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. GLADIN  ")
-    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/")
+    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
     
 elif submit and email == actual_emaild5 and password == actual_passwordd5:
     placeholder.empty()
@@ -83,27 +83,27 @@ elif submit and email == actual_emailp1 and password == actual_passwordp1:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Miss Reenu Sivadarshini M ")
-    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/")
+    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/ ")
 elif submit and email == actual_emailp2 and password == actual_passwordp2:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Mrs Riya")   
-    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/")
+    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/ ")
 elif submit and email == actual_emailp3 and password == actual_passwordp3:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Mr Jack")
-    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/")
+    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/ ")
 elif submit and email == actual_emailp4 and password == actual_passwordp4:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Mr Ryan ")
-    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/")
+    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/ ")
 elif submit and email == actual_emailp5 and password == actual_passwordp5:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Miss Nina")
-    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/")
+    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/ ")
 elif submit and email == actual_emailp6 and password == actual_passwordp6:
     placeholder.empty()
     st.success("Login successful")
