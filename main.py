@@ -83,26 +83,32 @@ elif submit and email == actual_emailp1 and password == actual_passwordp1:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Miss Reenu Sivadarshini M ")
+    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/")
 elif submit and email == actual_emailp2 and password == actual_passwordp2:
     placeholder.empty()
     st.success("Login successful")
-    st.write("Welcome Mrs Riya")    
+    st.write("Welcome Mrs Riya")   
+    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/")
 elif submit and email == actual_emailp3 and password == actual_passwordp3:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Mr Jack")
+    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/")
 elif submit and email == actual_emailp4 and password == actual_passwordp4:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Mr Ryan ")
+    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/")
 elif submit and email == actual_emailp5 and password == actual_passwordp5:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Miss Nina")
+    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/")
 elif submit and email == actual_emailp6 and password == actual_passwordp6:
     placeholder.empty()
     st.success("Login successful")
-    st.write("Welcome Mr Klaus")    
+    st.write("Welcome Mr Klaus") 
+    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/")
 elif submit and email != actual_email and password != actual_password:
     st.error("Login failed")
 else:
