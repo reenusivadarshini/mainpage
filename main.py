@@ -1,7 +1,8 @@
+
+
 from PIL import Image
 
+image = Image.open('Mental Health (1).png')
 
-image = Image.open('header.jpg')
-
-st.image(image, caption=' ')
+st.sidebar.image(image)
 
