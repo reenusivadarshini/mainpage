@@ -10,8 +10,38 @@ import streamlit as st
 # Create an empty container
 placeholder = st.empty()
 
-actual_email = "email"
-actual_password = "password"
+actual_emaild1 = "dr_sharmelee99@gmail.com"
+actual_passwordd1 = "dr_sharmelee123"
+
+actual_emaild2 = "dr_sherina@gmail.com"
+actual_passwordd2 = "dr_sherina123"
+
+actual_emaild3 = "dr_sammera@gmail.com"
+actual_passwordd3 = "dr_sammera123"
+
+actual_emaild4 = "dr_gladin@gmail.com"
+actual_passwordd4 = "dr_gladin123"
+
+actual_emaild4 = "dr_angellina@gmail.com"
+actual_passwordd4 = "dr_angellina123"
+
+actual_emailp1 = "pat_reenu@gmail.com"
+actual_passwordp1 = "pat_reenu"
+
+actual_emailp2 = "pat_riya@gmail.com"
+actual_passwordp2 = "pat_riya1"
+
+actual_emailp3 = "pat_jack@gmail.com"
+actual_passwordp3 = "pat_jack"
+
+actual_emailp4 = "pat_ryan@gmail.com"
+actual_passwordp4 = "pat_ryan"
+
+actual_emailp5 = "pat_nina@gmail.com"
+actual_passwordp5 = "pat_nina"
+
+actual_emailp5 = "pat_klaus@gmail.com"
+actual_passwordp5 = "pat_klaus"
 
 # Insert a form in the container
 with placeholder.form("login"):
@@ -20,11 +50,52 @@ with placeholder.form("login"):
     password = st.text_input("Password", type="password")
     submit = st.form_submit_button("Login")
 
-if submit and email == actual_email and password == actual_password:
-    # If the form is submitted and the email and password are correct,
-    # clear the form/container and display a success message
+if submit and email == actual_emaild1 and password == actual_passwordd1:
     placeholder.empty()
     st.success("Login successful")
+    st.write("Welcome Dr. SHARMELEE KUMAR ")
+elif submit and email == actual_emaild2 and password == actual_passwordd2:
+    placeholder.empty()
+    st.success("Login successful")
+    st.write("Welcome Dr. SHERINA CARMEL ")    
+elif submit and email == actual_emaild3 and password == actual_passwordd3:
+    placeholder.empty()
+    st.success("Login successful")
+    st.write("Welcome Dr. SAMEERA SHAMMA ")
+elif submit and email == actual_emaild4 and password == actual_passwordd4:
+    placeholder.empty()
+    st.success("Login successful")
+    st.write("Welcome Dr. GLADIN  ")
+elif submit and email == actual_emaild5 and password == actual_passwordd5:
+    placeholder.empty()
+    st.success("Login successful")
+    st.write("Welcome Dr. ANGELLINA K JOB ")
+    
+    
+rlif submit and email == actual_emailp1 and password == actual_passwordp1:
+    placeholder.empty()
+    st.success("Login successful")
+    st.write("Welcome Miss Reenu Sivadarshini M ")
+elif submit and email == actual_emailp2 and password == actual_passwordp2:
+    placeholder.empty()
+    st.success("Login successful")
+    st.write("Welcome Mrs Riya")    
+elif submit and email == actual_emailp3 and password == actual_passwordp3:
+    placeholder.empty()
+    st.success("Login successful")
+    st.write("Welcome Mr Jack")
+elif submit and email == actual_emailp4 and password == actual_passwordp4:
+    placeholder.empty()
+    st.success("Login successful")
+    st.write("Welcome Mr Ryan ")
+elif submit and email == actual_emailp5 and password == actual_passwordp5:
+    placeholder.empty()
+    st.success("Login successful")
+    st.write("Welcome Miss Nina")
+elif submit and email == actual_emailp6 and password == actual_passwordp6:
+    placeholder.empty()
+    st.success("Login successful")
+    st.write("Welcome Mr Klaus")    
 elif submit and email != actual_email and password != actual_password:
     st.error("Login failed")
 else:
