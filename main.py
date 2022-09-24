@@ -24,8 +24,8 @@ add_bg_from_url()
 def doc():
     return pd.DataFrame(
         {
-            "first column": ['Reenu Sivadarshini', 'Riya', 'Jack],
-            "second column": ['@depressingmsgs', '@riya68881', '@Jackkk988'],
+            "first column": ["Reenu Sivadarshini", "Riya", "Jack"],
+            "second column": ["@depressingmsgs", "@riya68881", "@Jackkk988"],
         }
     )
     st.write("Your Patients are:\n")
