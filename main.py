@@ -2,9 +2,7 @@ import streamlit as st
 import streamlit_authenticator as stauth
 from PIL import Image
 
-st.image(logo_url, width=100)
-st.title("Streamlit Dashboard Demo")
-
+st.title("WELCOME!!!")
 
 import streamlit as st
 def add_bg_from_url():
