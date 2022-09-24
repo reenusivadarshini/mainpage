@@ -58,7 +58,7 @@ actual_passwordp6 = "pat_klaus"
 
 # Insert a form in the container
 with placeholder.form("login"):
-    st.markdown("#### Enter your credentials")
+    st.title("#### Enter your credentials")
     email = st.text_input("Email")
     password = st.text_input("Password", type="password")
     submit = st.form_submit_button("Login")
