@@ -2,7 +2,9 @@ import streamlit as st
 import streamlit_authenticator as stauth
 from PIL import Image
 
-image = Image.open('header.jpg')
+st.image(logo_url, width=100)
+st.title("Streamlit Dashboard Demo")
+
 
 import streamlit as st
 def add_bg_from_url():
@@ -10,7 +12,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://cellularnews.com/wp-content/uploads/2020/03/purple-skys-325x485.jpg");
+             background-image: url("https://wallpaperaccess.com/full/2344101.jpg");
              background-attachment: fixed;
              background-size: cover
          }}
