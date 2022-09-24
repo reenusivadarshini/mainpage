@@ -71,8 +71,7 @@ elif submit and email == actual_emaild4 and password == actual_passwordd4:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. GLADIN  ")
-    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
-    
+    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")    
 elif submit and email == actual_emaild5 and password == actual_passwordd5:
     placeholder.empty()
     st.success("Login successful")
