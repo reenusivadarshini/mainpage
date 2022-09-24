@@ -99,14 +99,14 @@ if submit and email == actual_emaild1 and password == actual_passwordd1:
     st.write("Welcome Dr. SHARMELEE KUMAR ")
     st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
     df=doc()
-    df
+    st.dataframe(df, use_container_width=st.session_state.use_container_width)
 elif submit and email == actual_emaild2 and password == actual_passwordd2:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. SHERINA CARMEL ") 
     st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
     df=doc()
-    df
+    st.dataframe(df, use_container_width=st.session_state.use_container_width)
 
 elif submit and email == actual_emaild3 and password == actual_passwordd3:
     placeholder.empty()
