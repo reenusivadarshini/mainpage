@@ -1,8 +1,8 @@
 from PIL import Image
 
-st.sidebar.image(image)
 
 image = Image.open('header.png')
+st.sidebar.image(image)
 
 st.image(image, caption=' ')
 
