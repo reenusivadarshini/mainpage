@@ -2,7 +2,7 @@
 
 from PIL import Image
 
-image = Image.open('Mental Health (1).png')
+image = Image.open('header.png')
 
 st.sidebar.image(image)
 
