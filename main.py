@@ -20,6 +20,21 @@ def add_bg_from_url():
      )
 
 add_bg_from_url() 
+
+def doc():
+    st.write("Your Patients are:\n")
+    st.markdown("- Patient 1")
+    st.markdown("- Patient 2")
+    st.markdown("- Patient 3")
+
+st.markdown('''
+<style>
+[data-testid="stMarkdownContainer"] ul{
+    list-style-position: inside;
+}
+</style>
+''', unsafe_allow_html=True)
+
 # Create an empty container
 placeholder = st.empty()
 
