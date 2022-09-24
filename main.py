@@ -22,12 +22,6 @@ def add_bg_from_url():
 add_bg_from_url() 
 
 def doc():
-    return pd.DataFrame(
-        {
-            "first column": ["Reenu Sivadarshini", "Riya", "Jack"],
-            "second column": ["@depressingmsgs", "@riya68881", "@Jackkk988"],
-        }
-    )
     st.write("Your Patients are:\n")
     st.markdown("- Reenu Sivadarshini ---> @depressingmsgs")
     st.markdown("- Riya --->@riya68881")
@@ -98,15 +92,13 @@ if submit and email == actual_emaild1 and password == actual_passwordd1:
     st.success("Login successful")
     st.write("Welcome Dr. SHARMELEE KUMAR ")
     st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
-    df=doc()
-    st.dataframe(df, use_container_width=st.session_state.use_container_width)
+    doc()
 elif submit and email == actual_emaild2 and password == actual_passwordd2:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. SHERINA CARMEL ") 
     st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
-    df=doc()
-    st.dataframe(df, use_container_width=st.session_state.use_container_width)
+    doc()
 
 elif submit and email == actual_emaild3 and password == actual_passwordd3:
     placeholder.empty()
