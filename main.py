@@ -90,7 +90,7 @@ elif submit and email == actual_emaild4 and password == actual_passwordd4:
     st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")    
 
     
-if submit and email == actual_emailp1 and password == actual_passwordp1:
+elif submit and email == actual_emailp1 and password == actual_passwordp1:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Miss Reenu Sivadarshini M ")
@@ -119,7 +119,7 @@ elif submit and email == actual_emailp6 and password == actual_passwordp6:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. KLAUS ") 
-    st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
+    st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/ ")
 elif submit and email != actual_email and password != actual_password:
     st.error("Login failed")
 else:
