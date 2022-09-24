@@ -86,17 +86,20 @@ if submit and email == actual_emaild1 and password == actual_passwordd1:
     st.success("Login successful")
     st.write("Welcome Dr. SHARMELEE KUMAR ")
     st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
+    doc()
 elif submit and email == actual_emaild2 and password == actual_passwordd2:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. SHERINA CARMEL ") 
     st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
+    doc()
 
 elif submit and email == actual_emaild3 and password == actual_passwordd3:
     placeholder.empty()
     st.success("Login successful")
     st.write("Welcome Dr. SAMEERA SHAMMA ")
     st.write("https://reenu123456-tweet-analyzer-app-odaytp.streamlitapp.com/ ")
+    doc()
     
 elif submit and email == actual_emaild4 and password == actual_passwordd4:
     placeholder.empty()
