@@ -147,6 +147,6 @@ elif submit and email == actual_emailp6 and password == actual_passwordp6:
     st.write("https://reenusivadarshini-chat-streamlit-ur01z7.streamlitapp.com/ ")
     
 elif submit and email != actual_email and password != actual_password:
-    st.error("Login failed")
+    st.write("Login failed")
 else:
     pass
