@@ -7,3 +7,5 @@ torch
 torchvision
 torchaudio
 Pillow
+
+streamlit.components.v1
