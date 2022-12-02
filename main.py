@@ -2,14 +2,13 @@ import streamlit as st
 import streamlit_authenticator as stauth
 from PIL import Image
 
-st.title("WELCOME")
 
 def add_bg_from_url():
     st.markdown(
          f"""
          <style>
          .stApp {{
-             background-image: url("https://images.pexels.com/photos/8549415/pexels-photo-8549415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+             background-image: url("https://images.pexels.com/photos/320014/pexels-photo-320014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
              background-attachment: fixed;
              background-size: cover
          }}
@@ -78,10 +77,10 @@ actual_passwordp6 = "pat_klaus"
 
 # Insert a form in the container
 with placeholder.form("login"):   
-    st.title("Enter your credentials")
+    st.title("LOGIN")
     email = st.text_input("Email")
     password = st.text_input("Password", type="password")
-    submit = st.form_submit_button("Login")
+    submit = st.form_submit_button("SUBMIT")
 
     
     
