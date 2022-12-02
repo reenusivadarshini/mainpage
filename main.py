@@ -151,3 +151,8 @@ elif submit and email != actual_email and password != actual_password:
     st.write("Login failed")
 else:
     pass
+
+import streamlit.components.v1 as components
+
+# embed streamlit docs in a streamlit app
+components.iframe("https://console.dialogflow.com/api-client/demo/embedded/eff595c1-2fee-49a6-b620-6d4bf13ccce4")
