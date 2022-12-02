@@ -151,9 +151,25 @@ elif submit and email != actual_email and password != actual_password:
     st.write("Login failed")
 else:
     pass
-components.html(
-    """
-    <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/eff595c1-2fee-49a6-b620-6d4bf13ccce4"></iframe>
-   """
-     
-)
+progress_bar = st.progress(0)
+status_text = st.empty()
+chart = st.line_chart(np.random.randn(10, 2))
+
+for i in range(100):
+    # Update progress bar.
+    progress_bar.progress(i + 1)
+
+    new_rows = np.random.randn(10, 2)
+
+    # Update status text.
+    status_text.text(
+        'The latest random number is: %s' % new_rows[-1, 1])
+
+    # Append data to the chart.
+    chart.add_rows(new_rows)
+
+    # Pretend we're doing some computation that takes time.
+    time.sleep(0.1)
+
+status_text.text('Done!')
+st.balloons()
